@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pexels Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Pexels</div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                   <li><a href="#" id="contact-link">Contact</a></li>
+
+                    <li><a href="upload.html">Upload</a></li>
+
+            </ul>
+        </nav>
+        
+        
+    </header>
+
+    <section id="hero">
+        <h1>The best free stock photos, royalty-free images & videos shared by creators.</h1>
+        <div class="search-bar">
+            <select id="search-type">
+                <option>Photos</option>
+                <option>Videos</option>
+            </select>
+            <input type="text" id="search-input" placeholder="Search for free photos">
+            <button id="search-button">🔍</button>
+        </div>
+    </section>
+
+
+     <main>
+       
+        <h2>Free Stock Photos</h2>
+        <div class="grid-container">
+            <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D" alt="Image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbx6wXXY3DHy82q0PIG-VjZHNWphldRd4Ufg&s" alt="Image">
+            <img src="https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2017/09/27/Pictures/_fec96528-a3ae-11e7-84eb-85ab3d3e2a90.jpg" alt="Image">
+            <img src="https://cdn.mos.cms.futurecdn.net/arDYsaTaikCkWaG5qAqieB.jpeg" alt="Image">
+            <img src="https://static1.backyardbossimages.com/wordpress/wp-content/uploads/2024/05/white-moonflower-blooming-under-the-night-sky.jpg" alt="Image">
+            <img src="https://miro.medium.com/v2/resize:fit:1400/1*lbhpYRIINobtgQ8y8WkK5w@2x.jpeg" alt="Image">
+            <img src="https://d1jyxxz9imt9yb.cloudfront.net/medialib/4350/image/s768x1300/AdobeStock_123823873_433578_reduced.jpg" alt="Image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsH9RScTl_9Ep3OlS9FqgGr0mrU_qJmZVdsg&s" alt="Image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbq5BId2lFwR_9cq71Ol0UxuG83U1qxjHh4g6P_2evSwIG4Y-6JiqRFgTkMBLrVnPKXns&usqp=CAU" alt="Image">
+            <img src="https://cdn.britannica.com/10/241010-049-3EB67AA2/highest-mountains-of-the-world-on-each-continent.jpg" alt="Image">
+            <img src="https://media.istockphoto.com/id/485371557/photo/twilight-at-spirit-island.jpg?s=612x612&w=0&k=20&c=FSGliJ4EKFP70Yjpzso0HfRR4WwflC6GKfl4F3Hj7fk=" alt="Image">
+            <img src="https://images.stockcake.com/public/1/a/6/1a609006-3aa9-40f0-b455-b65c06c57dd3_large/sunset-river-view-stockcake.jpg" alt="Image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQkFDAaf0Rb3CCkYGLTS4ef194Geigc-FT2w&s" alt="Image">
+            <img src="https://media.istockphoto.com/id/1389993767/photo/studio-shot-of-an-attractive-young-woman-posing-against-grey-background.jpg?s=612x612&w=0&k=20&c=ZUaRzgMoJibAsfV71XduUo0i1b3dkmiPOzpg9yiu9PE=" alt="Image">
+            <img src="https://miro.medium.com/v2/resize:fit:1400/0*C__knszvhJ6NCa11" alt="Image">
+            <img src="https://variety.com/wp-content/uploads/2014/12/the-witch.jpg?w=1000&h=667&crop=1" alt="Image">
+            <img src="https://www.bigissue.com/wp-content/uploads/2022/10/witches-by-sierra-koder.jpg?w=1920" alt="Image">
+            <img src="https://static.vecteezy.com/system/resources/previews/013/951/340/non_2x/sea-ocean-beach-sunset-sunrise-landscape-outdoor-water-wave-with-white-foam-beautiful-sunset-colorful-sky-with-clouds-natural-island-panoramic-background-idyllic-amazing-tropical-island-shore-photo.jpg" alt="Image">
+            <img src = "https://discovery.sndimg.com/content/dam/images/discovery/fullset/2022/4/29/GettyImages-1023165484.jpg.rend.hgtvcom.1280.720.suffix/1651251910361.jpeg" alt="image">
+            <img src = "https://static.vecteezy.com/system/resources/thumbnails/055/227/790/small/minimal-night-scene-with-moon-and-subtle-star-clusters-photo.jpg" alt="image">
+            <img src = "https://assets.cntraveller.in/photos/65d87904d224970ac4f465cc/16:9/w_1024%2Cc_limit/COVER-BABY-ANIMALS.jpg" alt="image">
+        </div>
+    </main> 
+
+<section id="contact-section">
+    <form id="contact-form" style="display: none;">
+        <h3>Contact Us</h3>
+        
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Your Name" required>
+
+        <label for="interest">Your Interest</label>
+        <input type="text" id="interest" placeholder="Your Interest">
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" placeholder="Your Email" required>
+
+        <button id="submit-btn">Submit</button>
+    </form>
+</section>
+
+    <footer>
+        <p>&copy; 2025 Pexels Clone. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</html>
+
+

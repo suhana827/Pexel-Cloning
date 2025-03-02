@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Image - Pexels</title>
+    <link rel="stylesheet" href="upload.css">
+</head>
+<body>
+    <header>
+        <h1>Pexels</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="upload.html" class="active">Upload</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Upload your image here</h2>
+        <div class="upload-container">
+            <button class="upload-btn">Choose File</button>
+            <input type="file" id="fileInput" accept="image/*" multiple style="display: none;">
+            <!-- <p id="image-limit-text">You can upload up to 30 images.</p> -->
+        </div>
+
+        <!-- Image Gallery Section -->
+        <div id="gallery" class="gallery"></div>
+    </main>
+
+    <footer>
+        <p>© 2025 Pexels Clone. All rights reserved.</p>
+    </footer>
+
+    <script src="upload.js"></script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,153 @@
+/* Reset Default Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full Page Layout */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background: url('https://t3.ftcdn.net/jpg/05/02/37/84/360_F_502378455_UH76V1lhBW0zHX8UozsW9LJDcS02QuTo.jpg') no-repeat center/cover;
+    text-align: center;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #f2ecec;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+/* Highlight the active page */
+nav ul li a.active {
+    background-color: black;
+    color: white;
+}
+
+
+/* Main Content - Push Footer to Bottom */
+main {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+h2{
+    padding-bottom: 70px;
+    font-size: 50px;
+}
+
+/* Upload Section */
+.upload-container {
+    margin-bottom: 20px;
+}
+
+.upload-btn {
+    background-color: #100d0d;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    
+}
+
+.upload-btn:hover {
+    background-color: #0a0707;
+}
+
+/* Gallery styles */
+/* .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+} */
+
+/* Update gallery styles to increase gap */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust grid size */
+    gap: 20px; /* Increased gap between images */
+    padding: 20px;
+    justify-content: center;
+}
+
+/* Update image container to increase size */
+.image-container {
+    position: relative;
+    width: 300px; /* Increased width */
+    height: 300px; /* Increased height */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ensure images fit well */
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Keeps image proportions correct */
+    border-radius: 10px; /* Optional rounded corners */
+}
+
+/* Adjust remove button */
+.remove-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 8px;
+    border-radius: 50%;
+}
+
+.remove-btn:hover {
+    background: darkred;
+}
+
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+}
